@@ -1,4 +1,4 @@
-name: greetings
+name: branch_checkout
 on: [push]
 jobs:
   external-workflow:

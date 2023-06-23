@@ -6,6 +6,6 @@ on:
 
 jobs:
   ping:
-    uses: abystoma/event-usage/.github/workflows/pong.yml@master
+    uses: abystoma/event-usage/.github/workflows/pong.yaml@master
     with:
       ping: 'PONG'

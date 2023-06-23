@@ -2,10 +2,10 @@ name: Workflow A (Ping)
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   ping:
-    uses: abystoma/event-usage/.github/workflows/pong.yml@main
+    uses: abystoma/event-usage/.github/workflows/pong.yml@master
     with:
       ping: 'PONG'

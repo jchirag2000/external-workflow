@@ -8,4 +8,4 @@ jobs:
   ping:
     uses: abystoma/event-usage/.github/workflows/pong.yml@main
     with:
-      ping: 'PONG!'
+      ping: 'PONG'

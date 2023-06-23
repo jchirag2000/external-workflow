@@ -6,9 +6,6 @@ on:
 
 jobs:
   ping:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Ping Workflow B
-      uses: abystoma/event-usage/.github/workflows/pong.yml@main
-      with:
-        ping: 'PONG!'
+    uses: abystoma/event-usage/.github/workflows/pong.yml@main
+    with:
+      ping: 'PONG!'

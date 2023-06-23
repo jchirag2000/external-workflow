@@ -11,4 +11,4 @@ jobs:
     - name: Ping Workflow B
       uses: abystoma/event-usage/.github/workflows/pong.yml@main
       with:
-        ping: 'PONG'
+        ping: 'PONG!'
